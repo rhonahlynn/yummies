@@ -5,7 +5,7 @@
     justify-content: center;
 }
 header{
-    background-image: url(./image7.jpeg);
+    background-image: url(./donut.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -21,7 +21,7 @@ li{
     font-size: 30px;
     padding: 10px;
     margin: 20px;
-    border: 2px solid aqua;
+    border: 2px solid purple;
     list-style-type: none;
 }
 .navigation li a{
@@ -58,6 +58,10 @@ img:hover{
     -webkit-filter: blur(1px);
     filter:blur(1px);
 } */
+img:hover{
+    -webkit-filter: blur(1px);
+    filter:blur(1px);
+} 
 button{
     background-color:cyan;
     color:black;
@@ -139,7 +143,7 @@ body{
 footer{
     text-align: center;
     font-size: 139%;
-    color: blue;
+    color: purple;
 }
 
 /* #foot{
