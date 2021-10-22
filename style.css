@@ -1,0 +1,88 @@
+.Logo{
+     color: orange;
+}
+header{
+    background-image: url(images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.navigation{
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+li{
+    color: black;
+    font-size: 30px;
+    padding:10px;
+    margin: 20px;
+    border: 2px solid red;
+    list-style-type: none;
+}
+.navigation li a{
+    text-decoration: none;
+    color: white;
+}
+
+#Paragraph{
+    border: 10px double blue;
+    padding-top: 50px;
+    /* margin: 500px; */
+    margin: bottom 100px;
+}
+
+
+.first-anime{
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    right: 100px;
+    bottom: 100px;
+    border: 2px solid yellow;
+}
+
+.forth-anime{
+    display:grid;
+    place-items:center;
+    border: 2px solid green;
+}
+.last-items{
+    /* display: grid;*/
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: repeat(4, 50px 3fr)100px;
+    display: grid;
+    place-items: center;
+}
+button{
+    background-color: purple;
+    color:white;
+    border: 2px solid black;
+    border-radius: 5px ;
+    padding: 5px 10px;
+    box-shadow: 10px 10px blueviolet;
+    
+}
+
+button:hover{
+    background-color: black;
+    color: gold;
+    -webkit-transition: max-width 1s;
+    transition: max width 1s;
+    display: inline-flex;
+}
+img{
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+
+}
+img hover{
+    -webkit-filter: blur(1px);
+    filter:blur(1px)
+}
+#my styled card{
+    border:2px solid grey;
+}
+#my styled card .img{
+    
+}
